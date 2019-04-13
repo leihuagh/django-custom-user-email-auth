@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  web-app:
+    build: .
+    networks:
+      - default
+    ports:
+      - "8000:8000"
+    environment:
+      - AUTHOR=Mokgadi Rasekgala
+    volumes:
+      - .:/code
+    command: /code/start.sh
