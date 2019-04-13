@@ -53,7 +53,7 @@ docker-compose run --rm web-app python manage.py shell
 ### changing Author
 You will see that Author comes up as Mokgadi Rasekgala when you run the app. Change it the docker-compose.yml file to your name  or by running
 ```shell
-docker-compose run -e AUTHOR=Lebo web-app
+docker-compose run -e AUTHOR={your name} web-app
 ```
 
 ## Making Modifications
